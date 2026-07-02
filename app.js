@@ -1,5 +1,5 @@
 /**
- * AutoMind Landing Page Interaction Logic
+ * AutoAI Landing Page Interaction Logic
  */
 
 document.addEventListener('DOMContentLoaded', () => {
