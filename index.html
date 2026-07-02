@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMind | אוטומציה עסקית חכמה וסוכני AI לעסקים</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="ייעוץ ופיתוח פתרונות אוטומציה מתקדמים ב-n8n ו-Make, פריסת סוכני AI מאובטחים ב-Docker, ומיגרציות מידע מורכבות. חסכו שעות עבודה שבועיות והגדילו את המכירות בעסק שלכם.">
+  <meta name="keywords" content="אוטומציה, n8n, Make, Docker, סוכני AI, מיגרציית דאטה, אוטומציה לעורכי דין, אוטומציה לנדלן, אוטומציה לעסקים, בינה מלאכותית">
+  <meta name="author" content="AutoMind - Automation & AI Solutions">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://automind-ai.co.il/">
+  <meta property="og:title" content="AutoMind | אוטומציה עסקית חכמה וסוכני AI לעסקים">
+  <meta property="og:description" content="ייעוץ ופיתוח פתרונות אוטומציה מתקדמים ב-n8n ו-Make, פריסת סוכני AI מאובטחים ב-Docker, ומיגרציות מידע מורכבות.">
+  <meta property="og:image" content="https://automind-ai.co.il/og-image.jpg">
+
+  <!-- Google Fonts - Rubik for Hebrew & Outfit for numbers/accents -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background decorative glow elements -->
+  <div class="glow-bg glow-1" aria-hidden="true"></div>
+  <div class="glow-bg glow-2" aria-hidden="true"></div>
+  <div class="glow-bg glow-3" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#" class="logo" aria-label="דף הבית של AutoMind">
+        <span class="logo-icon" aria-hidden="true">⚡</span>
+        <span class="logo-text">Auto<span class="logo-highlight">Mind</span></span>
+      </a>
+      
+      <nav class="nav" aria-label="תפריט ניווט ראשי">
+        <ul class="nav-list">
+          <li><a href="#solutions" class="nav-link">הפתרון שלנו</a></li>
+          <li><a href="#services" class="nav-link">טכנולוגיות ושירותים</a></li>
+          <li><a href="#sandbox" class="nav-link">איך זה עובד בפועל</a></li>
+          <li><a href="#testimonials" class="nav-link">לקוחות מספרים</a></li>
+          <li><a href="#faq" class="nav-link">שאלות ותשובות</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-cta">
+        <a href="#contact" class="btn btn-primary btn-sm">שיחת ייעוץ חינם</a>
+      </div>
+      
+      <button class="menu-toggle" aria-label="פתח תפריט ניווט" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu (dynamically handled by JS) -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="תפריט ניווט נייד">
+      <ul class="mobile-nav-list">
+        <li><a href="#solutions" class="mobile-nav-link">הפתרון שלנו</a></li>
+        <li><a href="#services" class="mobile-nav-link">טכנולוגיות ושירותים</a></li>
+        <li><a href="#sandbox" class="mobile-nav-link">איך זה עובד בפועל</a></li>
+        <li><a href="#testimonials" class="mobile-nav-link">לקוחות מספרים</a></li>
+        <li><a href="#faq" class="mobile-nav-link">שאלות ותשובות</a></li>
+        <li><a href="#contact" class="mobile-nav-link mobile-cta-link">שיחת ייעוץ חינם</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="badge-new">
+            <span class="badge-icon">🚀</span>
+            <span>האוטומציות שיחזירו לכם את הזמן שלכם</span>
+          </div>
+          
+          <h1 class="hero-title">
+            תפסיקו לבצע עבודה ידנית.<br>
+            <span class="gradient-text">סוכני AI ואוטומציות</span> יעשו את זה בשבילכם.
+          </h1>
+          
+          <p class="hero-subtitle">
+            פיתוח מערכות אוטומציה מתקדמות ב-<strong>n8n</strong> ו-<strong>Make</strong>, פריסת סוכני בינה מלאכותית מאובטחים ב-<strong>Docker</strong>, ומיגרציית נתונים חלקה. פתרונות מותאמים אישית למשרדי עורכי דין, נדל"ן ונותני שירות שמפנים 15+ שעות שבועיות של עבודה שגרתית.
+          </p>
+          
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">בואו נדבר (שיחת ייעוץ חינם)</a>
+            <a href="#sandbox" class="btn btn-secondary btn-lg">צפו בסימולציה חיה 🔍</a>
+          </div>
+          
+          <div class="hero-badges">
+            <div class="hero-badge-item">
+              <span class="badge-tick">✓</span>
+              <span>אפיון ראשוני ללא התחייבות</span>
+            </div>
+            <div class="hero-badge-item">
+              <span class="badge-tick">✓</span>
+              <span>אבטחת מידע ברמה הגבוהה ביותר</span>
+            </div>
+            <div class="hero-badge-item">
+              <span class="badge-tick">✓</span>
+              <span>אינטגרציה חלקה למערכות קיימות</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <!-- Animated Flow Visual using SVG and CSS classes -->
+            <div class="flow-container">
+              <div class="flow-node node-trigger">
+                <div class="node-icon">📧</div>
+                <div class="node-label">ליד נכנס</div>
+              </div>
+              <div class="flow-line-container">
+                <svg class="flow-line-svg" viewBox="0 0 100 20" preserveAspectRatio="none">
+                  <path class="flow-path" d="M 0,10 L 100,10" fill="none" stroke="#cbd5e1" stroke-width="3" />
+                  <path class="flow-path-active" d="M 0,10 L 100,10" fill="none" stroke="url(#active-grad)" stroke-width="3" />
+                </svg>
+                <div class="flow-dot"></div>
+              </div>
+              <div class="flow-node node-ai">
+                <div class="node-icon">🤖</div>
+                <div class="node-label">סוכן AI מנתח ומסווג</div>
+              </div>
+              <div class="flow-line-container">
+                <svg class="flow-line-svg" viewBox="0 0 100 20" preserveAspectRatio="none">
+                  <path class="flow-path" d="M 0,10 L 100,10" fill="none" stroke="#cbd5e1" stroke-width="3" />
+                  <path class="flow-path-active" d="M 0,10 L 100,10" fill="none" stroke="url(#active-grad)" stroke-width="3" />
+                </svg>
+                <div class="flow-dot"></div>
+              </div>
+              <div class="flow-node node-action">
+                <div class="node-icon">💬</div>
+                <div class="node-label">מענה אישי בוואטסאפ</div>
+              </div>
+            </div>
+            
+            <svg style="position: absolute; width: 0; height: 0;">
+              <defs>
+                <linearGradient id="active-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#4f46e5" />
+                  <stop offset="100%" stop-color="#06b6d4" />
+                </linearGradient>
+              </defs>
+            </svg>
+            
+            <div class="visual-card-footer">
+              <span class="live-indicator"><span class="live-dot"></span>הדמיית תהליך אוטומטי</span>
+              <span class="time-saved">חוסך 8 דק' לכל פנייה</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Proposition Section -->
+    <section id="solutions" class="section solutions-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">הזמן שלכם שווה יותר מלהעתיק מידע מאקסל</h2>
+          <p class="section-subtitle">למה עסקים בישראל עוברים לאוטומציות וסוכני AI?</p>
+        </div>
+        
+        <div class="comparison-grid">
+          <div class="comparison-card card-pain">
+            <h3 class="card-pain-title">החיים בעסק ללא אוטומציה ❌</h3>
+            <ul class="comparison-list">
+              <li>
+                <span class="list-bullet">▪</span>
+                <div>
+                  <strong>לידים הולכים לאיבוד:</strong> פניות מפייסבוק, גוגל או טיקטוק מחכות שעות (או ימים) למענה אנושי.
+                </div>
+              </li>
+              <li>
+                <span class="list-bullet">▪</span>
+                <div>
+                  <strong>עבודה שחורה ידנית:</strong> הקלדת נתונים כפולה, העברת פרטי לקוח מאקסלים ל-CRM ושליחת קבלות ידנית.
+                </div>
+              </li>
+              <li>
+                <span class="list-bullet">▪</span>
+                <div>
+                  <strong>בזבוז זמן של מומחים:</strong> עורכי דין או מתווכים מבלים שעות בניסוח מיילים שגרתיים במקום לסגור עסקאות.
+                </div>
+              </li>
+              <li>
+                <span class="list-bullet">▪</span>
+                <div>
+                  <strong>מידע מפוזר ומבלבל:</strong> היסטוריית הלקוח מפוזרת בין הוואטסאפ, המייל, מערכת החיוב ופתקאות.
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="comparison-card card-solution">
+            <h3 class="card-solution-title">העסק שלכם עם AutoMind ⚡</h3>
+            <ul class="comparison-list">
+              <li>
+                <span class="list-bullet">✓</span>
+                <div>
+                  <strong>מענה מיידי תוך 30 שניות:</strong> לידים נקלטים מיידית, סוכן AI פונה אליהם בוואטסאפ ומסנן אותם אוטומטית.
+                </div>
+              </li>
+              <li>
+                <span class="list-bullet">✓</span>
+                <div>
+                  <strong>סנכרון מלא 24/7:</strong> כל המערכות שלכם מדברות ביניהן. מידע זורם אוטומטית ללא שום טעויות אנוש.
+                </div>
+              </li>
+              <li>
+                <span class="list-bullet">✓</span>
+                <div>
+                  <strong>מיקוד במה שמביא כסף:</strong> ה-AI מנסח חוזים, מסכם מסמכים, מעדכן לקוחות ועושה את העבודה המנהלתית.
+                </div>
+              </li>
+              <li>
+                <span class="list-bullet">✓</span>
+                <div>
+                  <strong>החלטות מבוססות דאטה:</strong> כל המידע ההיסטורי עובר מיגרציה בטוחה למקום אחד מסודר ונגיש.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Tech Stack Section -->
+    <section id="services" class="section services-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">הטכנולוגיות שמניעות את העסק שלכם קדימה</h2>
+          <p class="section-subtitle">אנחנו משתמשים בכלים המובילים בעולם כדי לתפור את הפתרון המושלם עבורכם</p>
+        </div>
+        
+        <div class="services-grid">
+          <!-- Card 1: n8n -->
+          <div class="service-card">
+            <div class="service-icon-box n8n-bg">
+              <span class="service-icon">🌐</span>
+            </div>
+            <h3 class="service-card-title">n8n - אוטומציה מורכבת ללא הגבלות</h3>
+            <p class="service-card-text">
+              כלי האוטומציה המתקדם ביותר המאפשר לבנות תהליכים מורכבים במיוחד עם לוגיקה מסועפת. יתרונו העצום הוא היכולת להריץ אלפי פעולות בחודש ללא עלויות רישיון מנופחות (בניגוט לכלים אחרים), תוך שמירה על גמישות תכנותית מקסימלית.
+            </p>
+            <div class="service-tag">פיתוח לוגיקה מורכבת</div>
+          </div>
+
+          <!-- Card 2: Docker -->
+          <div class="service-card">
+            <div class="service-icon-box docker-bg">
+              <span class="service-icon">🐳</span>
+            </div>
+            <h3 class="service-card-title">Docker - סביבה מאובטחת ופרטית</h3>
+            <p class="service-card-text">
+              פריסה ואירוח של סוכני AI ואוטומציות בתוך קונטיינרים מאובטחים. הדבר מאפשר הרצה מקומית של מודלי שפה (LLMs) ותהליכי מידע על שרתים ייעודיים. אידיאלי למשרדי עורכי דין ונדל"ן הזקוקים לחיסיון מלא ואבטחת מידע קפדנית.
+            </p>
+            <div class="service-tag">חיסיון ואבטחת מידע</div>
+          </div>
+
+          <!-- Card 3: Make -->
+          <div class="service-card">
+            <div class="service-icon-box make-bg">
+              <span class="service-icon">⚙️</span>
+            </div>
+            <h3 class="service-card-title">Make - אינטגרציה מהירה של אפליקציות</h3>
+            <p class="service-card-text">
+              חיבור מהיר, יציב וויזואלי בין מאות אפליקציות פופולריות כמו WhatsApp, Gmail, Google Sheets, מערכות CRM ישראליות ובינלאומיות, ומערכות סליקה. פתרון מעולה להקמת אינטגרציות אמינות תוך ימים בודדים.
+            </p>
+            <div class="service-tag">אינטגרציה מהירה</div>
+          </div>
+
+          <!-- Card 4: Migrations -->
+          <div class="service-card">
+            <div class="service-icon-box migration-bg">
+              <span class="service-icon">🔄</span>
+            </div>
+            <h3 class="service-card-title">מיגרציות דאטה ומידע בטוחות</h3>
+            <p class="service-card-text">
+              העברת נתונים, קבצים, והיסטוריית לקוחות ממערכות ישנות או אקסלים מפוזרים למערכות ענן ו-CRM חדשות ומודרניות. התהליך מתבצע בצורה מבוקרת, מנוטרת לחלוטין וללא שום פגיעה או השבתה של העסק בזמן המעבר.
+            </p>
+            <div class="service-tag">סדר וניקוי נתונים</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Automation Sandbox -->
+    <section id="sandbox" class="section sandbox-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">איך זה נראה בפועל? הדמיה אינטראקטיבית</h2>
+          <p class="section-subtitle">בחרו את סוג העסק שלכם והפעילו סימולציה חיה של האוטומציה</p>
+        </div>
+        
+        <div class="sandbox-widget">
+          <!-- Tabs for business categories -->
+          <div class="sandbox-tabs" role="tablist" aria-label="בחירת סימולציה לפי סוג עסק">
+            <button class="sandbox-tab active" id="tab-law" role="tab" aria-selected="true" aria-controls="panel-law" tabindex="0">
+              ⚖️ משרדי עורכי דין
+            </button>
+            <button class="sandbox-tab" id="tab-realestate" role="tab" aria-selected="false" aria-controls="panel-realestate" tabindex="-1">
+              🏠 סוכנויות נדל"ן
+            </button>
+            <button class="sandbox-tab" id="tab-service" role="tab" aria-selected="false" aria-controls="panel-service" tabindex="-1">
+              🎨 נותני שירות ויוצרים
+            </button>
+          </div>
+
+          <!-- Tab Content Panel -->
+          <div class="sandbox-panel" id="panel-law" role="tabpanel" aria-labelledby="tab-law">
+            <div class="sandbox-layout">
+              <div class="sandbox-flow">
+                <div class="sandbox-step step-1 active" data-step="1">
+                  <div class="step-num">1</div>
+                  <div class="step-content">
+                    <h4>מייל נכנס עם הסכם</h4>
+                    <p>הלקוח שולח קובץ PDF לבדיקה</p>
+                  </div>
+                </div>
+                
+                <div class="sandbox-connector connector-1">
+                  <div class="connector-glow"></div>
+                </div>
+
+                <div class="sandbox-step step-2" data-step="2">
+                  <div class="step-num">2</div>
+                  <div class="step-content">
+                    <h4>ניתוח סוכן AI (Docker)</h4>
+                    <p>סריקת מסמך וזיהוי סעיפים בעייתיים</p>
+                  </div>
+                </div>
+
+                <div class="sandbox-connector connector-2">
+                  <div class="connector-glow"></div>
+                </div>
+
+                <div class="sandbox-step step-3" data-step="3">
+                  <div class="step-num">3</div>
+                  <div class="step-content">
+                    <h4>התראה אישית בוואטסאפ</h4>
+                    <p>סיכום החוזה והסיכונים נשלח לעו"ד</p>
+                  </div>
+                </div>
+
+                <div class="sandbox-connector connector-3">
+                  <div class="connector-glow"></div>
+                </div>
+
+                <div class="sandbox-step step-4" data-step="4">
+                  <div class="step-num">4</div>
+                  <div class="step-content">
+                    <h4>סנכרון וארכיון ב-CRM</h4>
+                    <p>הקובץ והסיכום נשמרים בתיק הלקוח</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="sandbox-console">
+                <div class="console-header">
+                  <span class="console-dot red"></span>
+                  <span class="console-dot yellow"></span>
+                  <span class="console-dot green"></span>
+                  <span class="console-title">סימולטור אוטומציה - משרד עורכי דין</span>
+                </div>
+                <div class="console-body" id="console-output-law">
+                  <div class="console-line line-system">[מערכת] מוכן להרצה. לחצו על כפתור ההפעלה למטה.</div>
+                </div>
+                <div class="console-actions">
+                  <button class="btn btn-primary btn-sm btn-simulate" data-simulation="law">הפעל סימולציה חיה ⚡</button>
+                  <button class="btn btn-secondary btn-sm btn-reset-sim" data-simulation="law" disabled>איפוס</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Content Panel 2 (Real Estate) -->
+          <div class="sandbox-panel hidden" id="panel-realestate" role="tabpanel" aria-labelledby="tab-realestate">
+            <div class="sandbox-layout">
+              <div class="sandbox-flow">
+                <div class="sandbox-step step-1 active" data-step="1">
+                  <div class="step-num">1</div>
+                  <div class="step-content">
+                    <h4>ליד חדש בקמפיין</h4>
+                    <p>פנייה מפייסבוק, אינסטגרם או טיקטוק</p>
+                  </div>
+                </div>
+                
+                <div class="sandbox-connector connector-1">
+                  <div class="connector-glow"></div>
+                </div>
+
+                <div class="sandbox-step step-2" data-step="2">
+                  <div class="step-num">2</div>
+                  <div class="step-content">
+                    <h4>פנייה אוטומטית בוואטסאפ</h4>
+                    <p>שליחת הודעה ראשונית ומזמינה ב-Make</p>
+                  </div>
+                </div>
+
+                <div class="sandbox-connector connector-2">
+                  <div class="connector-glow"></div>
+                </div>
+
+                <div class="sandbox-step step-3" data-step="3">
+                  <div class="step-num">3</div>
+                  <div class="step-content">
+                    <h4>תשאול וסינון ע"י AI</h4>
+                    <p>הבנת תקציב, אזור מבוקש וסוג הנכס</p>
+                  </div>
+                </div>
+
+                <div class="sandbox-connector connector-3">
+                  <div class="connector-glow"></div>
+                </div>
+
+                <div class="sandbox-step step-4" data-step="4">
+                  <div class="step-num">4</div>
+                  <div class="step-content">
+                    <h4>עדכון CRM ושיוך לסוכן</h4>
+                    <p>הליד המבושל נכנס ישירות למערכת</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="sandbox-console">
+                <div class="console-header">
+                  <span class="console-dot red"></span>
+                  <span class="console-dot yellow"></span>
+                  <span class="console-dot green"></span>
+                  <span class="console-title">סימולטור אוטומציה - סוכנות נדל"ן</span>
+                </div>
+                <div class="console-body" id="console-output-realestate">
+                  <div class="console-line line-system">[מערכת] מוכן להרצה. לחצו על כפתור ההפעלה למטה.</div>
+                </div>
+                <div class="console-actions">
+                  <button class="btn btn-primary btn-sm btn-simulate" data-simulation="realestate">הפעל סימולציה חיה ⚡</button>
+                  <button class="btn btn-secondary btn-sm btn-reset-sim" data-simulation="realestate" disabled>איפוס</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Content Panel 3 (Services) -->
+          <div class="sandbox-panel hidden" id="panel-service" role="tabpanel" aria-labelledby="tab-service">
+            <div class="sandbox-layout">
+              <div class="sandbox-flow">
+                <div class="sandbox-step step-1 active" data-step="1">
+                  <div class="step-num">1</div>
+                  <div class="step-content">
+                    <h4>אישור הצעת מחיר</h4>
+                    <p>הלקוח לוחץ על אישור ההצעה בדיגיטל</p>
+                  </div>
+                </div>
+                
+                <div class="sandbox-connector connector-1">
+                  <div class="connector-glow"></div>
+                </div>
+
+                <div class="sandbox-step step-2" data-step="2">
+                  <div class="step-num">2</div>
+                  <div class="step-content">
+                    <h4>הפקת חשבונית וקבלה</h4>
+                    <p>יצירת מסמך במערכת החשבוניות ושליחה במייל</p>
+                  </div>
+                </div>
+
+                <div class="sandbox-connector connector-2">
+                  <div class="connector-glow"></div>
+                </div>
+
+                <div class="sandbox-step step-3" data-step="3">
+                  <div class="step-num">3</div>
+                  <div class="step-content">
+                    <h4>אונבורדינג ופתיחת תיקייה</h4>
+                    <p>פתיחת תיקיית לקוח בדרייב ושליחת מייל פתיחה</p>
+                  </div>
+                </div>
+
+                <div class="sandbox-connector connector-3">
+                  <div class="connector-glow"></div>
+                </div>
+
+                <div class="sandbox-step step-4" data-step="4">
+                  <div class="step-num">4</div>
+                  <div class="step-content">
+                    <h4>יצירת משימות ב-Monday</h4>
+                    <p>חלוקת משימות לצוות עם תאריכי יעד אוטומטיים</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="sandbox-console">
+                <div class="console-header">
+                  <span class="console-dot red"></span>
+                  <span class="console-dot yellow"></span>
+                  <span class="console-dot green"></span>
+                  <span class="console-title">סימולטור אוטומציה - נותני שירות</span>
+                </div>
+                <div class="console-body" id="console-output-service">
+                  <div class="console-line line-system">[מערכת] מוכן להרצה. לחצו על כפתור ההפעלה למטה.</div>
+                </div>
+                <div class="console-actions">
+                  <button class="btn btn-primary btn-sm btn-simulate" data-simulation="service">הפעל סימולציה חיה ⚡</button>
+                  <button class="btn btn-secondary btn-sm btn-reset-sim" data-simulation="service" disabled>איפוס</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials / Reviews Section -->
+    <section id="testimonials" class="section testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">מה אומרים הלקוחות שלנו?</h2>
+          <p class="section-subtitle">עסקים קטנים ובינוניים בישראל שכבר חוסכים זמן וכסף כל יום</p>
+        </div>
+        
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="דירוג 5 כוכבים">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">
+              "כמשרד עורכי דין, נושא אבטחת המידע הוא קריטי עבורנו. הצוות של AutoMind בנה לנו סביבת Docker פרטית לחלוטין עם סוכני AI שמסכמים עבורנו תביעות מורכבות ומסווגים מסמכים נכנסים ל-CRM. השירות היה מקצועי, והתהליך חסך לנו שעות עבודה שבועיות של מתמחים ומנע טעויות אנוש."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">רל</div>
+              <div class="author-info">
+                <h4 class="author-name">עו"ד רונן לוי</h4>
+                <p class="author-role">שותף מייסד, R&L עורכי דין ונוטריון</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="דירוג 5 כוכבים">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">
+              "לפני שהתחלנו לעבוד יחד, חצי מהלידים שהגיעו אלינו מפייסבוק ומטיקטוק הלכו לאיבוד כי לא היה לנו זמן לחזור אליהם מיידית. היום, כל ליד מקבל הודעת וואטסאפ מותאמת אישית תוך פחות מדקה באמצעות Make. הלידים מסוננים לפי תקציב ומגיעים אלינו מבושלים. אחוז המכירות שלנו עלה ב-25%!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">ימ</div>
+              <div class="author-info">
+                <h4 class="author-name">יעל מור</h4>
+                <p class="author-role">מנכ"לית מור נדל"ן קבוצת שיווק</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="דירוג 5 כוכבים">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">
+              "הייתי סקפטי מאוד לגבי מיגרציית המידע של העסק שלי. היו לנו אלפי לקוחות והיסטוריה מפוזרת ב-3 אקסלים שונים ובמערכת דיוור ישנה. המעבר למערכת ה-CRM החדשה עבר בצורה חלקה לחלוטין וללא אובדן שום נתון. האוטומציות של החשבוניות והאונבורדינג פשוט שינו לי את החיים בסטודיו."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">עג</div>
+              <div class="author-info">
+                <h4 class="author-name">עידן גבאי</h4>
+                <p class="author-role">מעצב ובעלים, Idan3D סטודיו לעיצוב</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">שאלות נפוצות</h2>
+          <p class="section-subtitle">כל מה שרציתם לדעת על אוטומציה עסקית וסוכני בינה מלאכותית</p>
+        </div>
+        
+        <div class="faq-container">
+          <!-- FAQ 1 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+              <span>מה ההבדל בין n8n ל-Make ומתי נשתמש בכל אחד?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-1" hidden>
+              <div class="faq-answer-content">
+                <p>
+                  <strong>Make</strong> היא פלטפורמת ענן מעולה המתאימה לחיבור מהיר של מאות אפליקציות חיצוניות פופולריות (כמו גוגל, וואטסאפ, פייסבוק ועוד) עם ממשק ויזואלי נוח ואינטואיטיבי.
+                </p>
+                <p>
+                  <strong>n8n</strong> הוא כלי קוד פתוח עוצמתי במיוחד. הוא אינו מוגבל בכמויות ריצה ומאפשר לבנות לוגיקה עסקית מורכבת במיוחד ועיבוד קבצים כבדים. ב-n8n נשתמש לרוב בפרויקטים מורכבים יותר או כשיש צורך לצמצם עלויות חודשיות של ריצות אוטומציה רבות.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+              <span>למה צריך Docker (דוקר) והאם המידע שלי בטוח?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-2" hidden>
+              <div class="faq-answer-content">
+                <p>
+                  דוקר (Docker) מאפשר לנו "לארוז" את האוטומציות וסוכני ה-AI שלנו ולהריץ אותם על שרת עצמאי וסגור שלכם (או בענן מאובטח). 
+                </p>
+                <p>
+                  זהו נושא קריטי במיוחד עבור משרדי עורכי דין או סוכנויות נדל"ן המנהלות מידע רגיש וסודי על הלקוחות שלהם. ריצה בתוך Docker מבטיחה שכל הנתונים וההתכתבויות עם סוכני ה-AI שלכם אינם נשמרים אצל חברות צד ג' או יוצאים מהסביבה המאובטחת שלכם.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+              <span>אני לא טכנולוגי בכלל, איך אדע להסתדר עם האוטומציה?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-3" hidden>
+              <div class="faq-answer-content">
+                <p>
+                  היופי במערכות אוטומציה שנבנות נכון הוא שהן שקופות לחלוטין למשתמש הקצה. אין לכם צורך ללמוד שום תוכנה חדשה או קוד.
+                </p>
+                <p>
+                  אתם ממשיכים לעבוד בדיוק במערכות שאתם כבר מכירים (הודעות וואטסאפ, תיבת המייל, או ה-CRM שלכם), והאוטומציות וה-AI פשוט עושים את הפעולות מאחורי הקלעים באופן עצמאי. בנוסף, בסיום הפרויקט תקבלו הדרכה קצרה, סרטוני הדרכה מוקלטים שיישארו אצלכם, ותמיכה טכנית מלאה.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
+              <span>כמה זמן לוקח להקים אוטומציה ואיך מתחילים?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-4" hidden>
+              <div class="faq-answer-content">
+                <p>
+                  זה מתחיל בשיחת אפיון קצרה (ללא עלות או התחייבות) שבה אנחנו ממפים את העבודה הידנית שלכם ומזהים היכן מתבזבז הכי הרבה זמן.
+                </p>
+                <p>
+                  מבחינת זמנים, הקמה של אוטומציית לידים ומענה וואטסאפ בסיסי לוקחת לרוב ימים בודדים. פרויקטים מורכבים יותר הכוללים סוכני AI מותאמים אישית או מיגרציות דאטה רחבות לוקחים בדרך כלל בין שבועיים לשלושה שבועות.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section / Lead Form -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-info-panel">
+            <h2 class="contact-title">בואו נחסוך לכם זמן וכסף 🚀</h2>
+            <p class="contact-subtitle">
+              השאירו פרטים ונחזור אליכם בהקדם לשיחת ייעוץ ואפיון ראשונית (חינם לחלוטין וללא שום התחייבות).
+            </p>
+            
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <span class="detail-icon">📞</span>
+                <div>
+                  <strong>טלפון:</strong>
+                  <a href="tel:0500000000" class="detail-link">050-0000000</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="detail-icon">✉️</span>
+                <div>
+                  <strong>אימייל:</strong>
+                  <a href="mailto:hello@automind.co.il" class="detail-link">hello@automind.co.il</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="detail-icon">📍</span>
+                <div>
+                  <strong>מיקום:</strong>
+                  <span>תל אביב, ישראל (עובדים עם עסקים בכל הארץ)</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="trust-footer">
+              <span class="trust-badge-icon">🔒</span>
+              <span>המידע שלכם מאובטח ולא יימסר לצד ג' לעולם.</span>
+            </div>
+          </div>
+          
+          <div class="contact-form-panel">
+            <form id="lead-form" class="lead-form" novalidate>
+              <div class="form-group">
+                <label for="name">שם מלא <span class="required" aria-hidden="true">*</span></label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  required 
+                  minlength="2"
+                  autocomplete="name"
+                  placeholder="ישראל ישראלי"
+                  aria-describedby="name-error"
+                >
+                <div id="name-error" class="error-msg" role="alert">
+                  <span aria-hidden="true">❌</span> נא להזין שם מלא (לפחות 2 תווים).
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">מספר טלפון <span class="required" aria-hidden="true">*</span></label>
+                <!-- Pattern matching Israeli mobile/landline numbers -->
+                <input 
+                  type="tel" 
+                  id="phone" 
+                  name="phone" 
+                  required 
+                  pattern="^05[0-9]-?[0-9]{7}$|^0[23489]-?[0-9]{7}$"
+                  inputmode="tel"
+                  autocomplete="tel"
+                  placeholder="050-0000000"
+                  aria-describedby="phone-error"
+                >
+                <div id="phone-error" class="error-msg" role="alert">
+                  <span aria-hidden="true">❌</span> נא להזין מספר טלפון ישראלי תקין.
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">כתובת אימייל <span class="required" aria-hidden="true">*</span></label>
+                <span id="email-hint" class="hint">פורמט: name@example.com</span>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  required 
+                  autocomplete="email"
+                  placeholder="name@example.com"
+                  aria-describedby="email-hint email-error"
+                >
+                <div id="email-error" class="error-msg" role="alert">
+                  <span aria-hidden="true">❌</span> נא להזין כתובת אימייל תקינה.
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="business-type">סוג העסק שלכם</label>
+                <select id="business-type" name="business-type">
+                  <option value="" disabled selected>בחרו סוג עסק...</option>
+                  <option value="law">⚖️ משרד עורכי דין</option>
+                  <option value="realestate">🏠 נדל"ן ותיווך</option>
+                  <option value="services">🎨 נותני שירות (מעצבים, מפתחים וכדומה)</option>
+                  <option value="other">💼 עסק אחר</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">מה האתגר העיקרי שתרצו לפתור בעסק?</label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  rows="3" 
+                  placeholder="לדוגמה: רוצה לחבר את הלידים מפייסבוק לוואטסאפ ולסנכרן ל-CRM..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <span>שלחו פרטים ונשתמע 👋</span>
+              </button>
+            </form>
+            
+            <!-- Success Message Box -->
+            <div id="success-message" class="success-message hidden" role="status" aria-live="polite">
+              <div class="success-icon">✓</div>
+              <h3>הפרטים נשלחו בהצלחה!</h3>
+              <p>תודה רבה. שיחת הייעוץ שלך כבר בדרך. נחזור אליך טלפונית תוך שעתיים עבודה.</p>
+              <button class="btn btn-secondary btn-sm" id="reset-form-btn">שלח פנייה נוספת</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-icon" aria-hidden="true">⚡</span>
+          <span class="logo-text">Auto<span class="logo-highlight">Mind</span></span>
+        </a>
+        <p class="footer-tagline">בונים את העתיד של העסק שלכם, היום.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>ניווט מהיר</h4>
+        <ul>
+          <li><a href="#solutions">הפתרון שלנו</a></li>
+          <li><a href="#services">טכנולוגיות ושירותים</a></li>
+          <li><a href="#sandbox">איך זה עובד</a></li>
+          <li><a href="#testimonials">לקוחות מספרים</a></li>
+          <li><a href="#faq">שאלות ותשובות</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; 2026 AutoMind AI Solutions. כל הזכויות שמורות.</p>
+        <p class="footer-credit">עוצב ונבנה באהבה לעסקים בישראל 💙</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
